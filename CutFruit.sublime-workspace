@@ -259,10 +259,12 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/ASUS/Desktop/CutFruit/Assets"
+		"/C/Users/ASUS/Desktop/CutFruit/Assets",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/User"
 	],
 	"file_history":
 	[
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/cube.cs",
 		"/C/Users/ASUS/Desktop/CutFruit/CutFruit.sublime-project",
 		"/C/Users/ASUS/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
 		"/C/Users/ASUS/Desktop/Arduino/Arduino/Rainbow/Rainbow.ino",
@@ -334,6 +336,11 @@
 	"groups":
 	[
 		{
+			"sheets":
+			[
+			]
+		},
+		{
 			"selected": 0,
 			"sheets":
 			[
@@ -350,8 +357,8 @@
 						"selection":
 						[
 							[
-								230,
-								230
+								168,
+								169
 							]
 						],
 						"settings":
@@ -385,11 +392,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -418,6 +432,10 @@
 	"output.stino_panel":
 	{
 		"height": 126.0
+	},
+	"output.variable_get":
+	{
+		"height": 0.0
 	},
 	"pinned_build_system": "",
 	"project": "CutFruit.sublime-project",
@@ -453,7 +471,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
