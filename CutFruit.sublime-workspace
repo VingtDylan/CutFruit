@@ -107,7 +107,7 @@
 			"file": "Assets/cube.cs",
 			"settings":
 			{
-				"buffer_size": 236,
+				"buffer_size": 231,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Unix"
 			}
@@ -125,16 +125,20 @@
 		"selected_items":
 		[
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"git push",
 				"Git: Push"
 			],
 			[
 				"git co",
 				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
 			],
 			[
 				"git ad",
@@ -159,10 +163,6 @@
 			[
 				"git pus",
 				"Git: Push"
-			],
-			[
-				"git add",
-				"Git: Add..."
 			],
 			[
 				"instal",
@@ -350,15 +350,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 236,
+						"buffer_size": 231,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								169
+								225,
+								225
 							]
 						],
 						"settings":
