@@ -4,6 +4,202 @@
 		"selected_items":
 		[
 			[
+				"positions",
+				"positions"
+			],
+			[
+				"Cahnge",
+				"ChangePositions"
+			],
+			[
+				"Save",
+				"SavePosition"
+			],
+			[
+				"Distance",
+				"Distance\tVector3.*(a, b)"
+			],
+			[
+				"screenTo",
+				"screenToWorldPoint\tCamera.*(position)"
+			],
+			[
+				"postions",
+				"positions"
+			],
+			[
+				"first",
+				"firstMouseDown"
+			],
+			[
+				"onDraw",
+				"onDrawLine"
+			],
+			[
+				"mouseD",
+				"mouseDown"
+			],
+			[
+				"GetMouseBut",
+				"GetMouseButtonUp\tInput.*(button)"
+			],
+			[
+				"firs",
+				"firstMouseDown"
+			],
+			[
+				"GetMouse",
+				"GetMouseButtonDown\tInput.*(button)"
+			],
+			[
+				"lineREn",
+				"lineRenderer"
+			],
+			[
+				"Seri",
+				"SerializeField\t[class]"
+			],
+			[
+				"gameob",
+				"gameObject\tCollision.*"
+			],
+			[
+				"OnCol",
+				"OnCollisionEnter\tCollider.*(collisionInfo)"
+			],
+			[
+				"isFr",
+				"isFruit"
+			],
+			[
+				"Rigid",
+				"Rigidbody"
+			],
+			[
+				"rigi",
+				"rigidbody\t[class]"
+			],
+			[
+				"RAn",
+				"Random\t[class]"
+			],
+			[
+				"Physics",
+				"Physics.gravity\t[property]"
+			],
+			[
+				"Vec",
+				"Vector3\tVector4.*()"
+			],
+			[
+				"fruit",
+				"fruitIndex"
+			],
+			[
+				"Game",
+				"GameObject"
+			],
+			[
+				"Range",
+				"Range\tRandom.*(min, max)"
+			],
+			[
+				"delta",
+				"deltaTime\tTime.*"
+			],
+			[
+				"spaw",
+				"spawnTime"
+			],
+			[
+				"spr",
+				"sprite\t[class]"
+			],
+			[
+				"GEtComponent",
+				"GetComponent"
+			],
+			[
+				"Find",
+				"Find"
+			],
+			[
+				"tran",
+				"transform\t[class]"
+			],
+			[
+				"Audio",
+				"AudioSource\t[class]"
+			],
+			[
+				"GetCom",
+				"GetComponent"
+			],
+			[
+				"Audi",
+				"AudioSource\t[class]"
+			],
+			[
+				"RemoveLis",
+				"RemoveListener"
+			],
+			[
+				"onC",
+				"onClick"
+			],
+			[
+				"Soun",
+				"Sound"
+			],
+			[
+				"onpla",
+				"onPlayClick"
+			],
+			[
+				"oncl",
+				"onClick"
+			],
+			[
+				"Unity",
+				"UnityEngine"
+			],
+			[
+				"AddList",
+				"AddListener"
+			],
+			[
+				"onClick",
+				"onClick"
+			],
+			[
+				"onCl",
+				"onClick\tButton.*"
+			],
+			[
+				"getComponents",
+				"getComponents"
+			],
+			[
+				"getCom",
+				"getComponents\tGameObject.*(type)"
+			],
+			[
+				"Tranform",
+				"Transform"
+			],
+			[
+				"Butto",
+				"Button\t[class]"
+			],
+			[
+				"GetCompo",
+				"GetComponent\tComponent.*<T>()"
+			],
+			[
+				"trans",
+				"transform\tComponent.*"
+			],
+			[
 				"gre",
 				"greenPin"
 			],
@@ -103,15 +299,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Assets/cube.cs",
-			"settings":
-			{
-				"buffer_size": 231,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -124,6 +311,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Color Picker"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
 			[
 				"git push",
 				"Git: Push"
@@ -193,10 +396,6 @@
 				"Git: Add All"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"LiveReload: Enable",
 				"LiveReload: Enable/disable plug-ins"
 			],
@@ -207,10 +406,6 @@
 			[
 				"html",
 				"HTML: Encode Special Characters"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"Package Control: i",
@@ -260,10 +455,17 @@
 	"expanded_folders":
 	[
 		"/C/Users/ASUS/Desktop/CutFruit/Assets",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts",
 		"/C/Users/ASUS/Desktop/CutFruit/Assets/User"
 	],
 	"file_history":
 	[
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/UIStart.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/Spawner.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/MouseController.cs",
+		"/C/Users/ASUS/Desktop/MouseControl.cs",
+		"/C/Users/ASUS/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
+		"/C/Users/ASUS/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
 		"/C/Users/ASUS/Desktop/CutFruit/Assets/cube.cs",
 		"/C/Users/ASUS/Desktop/CutFruit/CutFruit.sublime-project",
 		"/C/Users/ASUS/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
@@ -305,7 +507,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -319,6 +521,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"8f"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -341,43 +544,14 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Assets/cube.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 231,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								225,
-								225
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C#/C#.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -441,7 +615,7 @@
 	"project": "CutFruit.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -471,7 +645,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
