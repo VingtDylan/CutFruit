@@ -53,8 +53,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DestroyOnTime.cs" />
      <Compile Include="Assets\Scripts\MouseController.cs" />
+     <Compile Include="Assets\Scripts\ObjectController.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\UIOver.cs" />
+     <Compile Include="Assets\Scripts\UIScore.cs" />
      <Compile Include="Assets\Scripts\UIStart.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/ASUS/Desktop/CutFruit/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

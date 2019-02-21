@@ -8,9 +8,12 @@ public class Spawner : MonoBehaviour {
 	[Header("炸弹的预设")]
 	public GameObject Bomb;
 
+	public AudioClip launcher;
+	public AudioSource audioSource;
+
 	private bool isPlaying=true;
 
-	private float spawnTime = 1.0f;
+	private float spawnTime = 2.0f;
 	private float currentTime = 0.0f;
 	private float tmpz=-2.0f;
 
@@ -39,6 +42,7 @@ public class Spawner : MonoBehaviour {
 	}
 
 	private void onSpawn(bool isFruit){
+		this.audioSource.Play();
 		float x = Random.Range(-8.4f,8.4f);
 		float y = transform.position.y;
 		float z = tmpz;

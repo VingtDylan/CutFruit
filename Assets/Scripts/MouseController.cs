@@ -6,6 +6,8 @@ public class MouseController : MonoBehaviour {
 
 	[SerializeField]
 	private LineRenderer lineRenderer;
+	[SerializeField]
+	private AudioSource audioSource;
 
 	private bool firstMouseDown=false;
 	private bool mouseDown=false;
@@ -19,6 +21,7 @@ public class MouseController : MonoBehaviour {
 		if(Input.GetMouseButtonDown(0)){
 			firstMouseDown=true;
 			mouseDown=true;
+			audioSource.Play();
 		}
 		if(Input.GetMouseButtonUp(0)){
 			mouseDown=false;
@@ -38,6 +41,7 @@ public class MouseController : MonoBehaviour {
 			if(Vector3.Distance(head,tail)>0.01f){
 				SavePosition(head);
 				posCount++;
+				onRayCast(head);
 			}
 			tail=head;
 		}else{
@@ -53,7 +57,7 @@ public class MouseController : MonoBehaviour {
 				positions[i]=pos;
 			}
 		}else{
-			for(int i=0;i<10;i++){
+			for(int i=0;i<9;i++){
 				positions[i]=positions[i+1];
 			}
 			positions[9]=pos;
@@ -62,5 +66,15 @@ public class MouseController : MonoBehaviour {
 
 	private void ChangePositions(Vector3[] positions){
 		lineRenderer.SetPositions(positions);
+	}
+
+	private void onRayCast(Vector3 worldPos){
+		Vector3 screenPos=Camera.main.WorldToScreenPoint(worldPos);
+		Ray ray=Camera.main.ScreenPointToRay(screenPos);
+		RaycastHit[] hits=(Physics.RaycastAll(ray));
+		for(int i=0;i<hits.Length;i++){
+			//Destroy(hits[i].collider.gameObject);
+			hits[i].collider.gameObject.SendMessage("OnCut",SendMessageOptions.DontRequireReceiver);
+		}
 	}
 }

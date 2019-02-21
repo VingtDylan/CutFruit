@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"Akw",
+				"Awake\tMonoBehaviour.*()"
+			],
+			[
+				"Seri",
+				"Serialize\tBitStream.*(ref viewID)"
+			],
+			[
+				"audioClip",
+				"audioClip"
+			],
+			[
+				"iden",
+				"identity\tQuaternion.*"
+			],
+			[
+				"Spl",
+				"Splash"
+			],
+			[
+				"Game",
+				"GameObject"
+			],
+			[
+				"RAndom",
+				"Random"
+			],
+			[
+				"half",
+				"halfFruit"
+			],
+			[
+				"Instan",
+				"Instantiate\tObject.*(original)"
+			],
+			[
+				"audio",
+				"audioSource"
+			],
+			[
+				"Done",
+				"DontRequireReceiver\tSendMessageOptions.*"
+			],
+			[
+				"SendM",
+				"SendMessageOptions\t[class]"
+			],
+			[
+				"gameobjec",
+				"gameObject\t*()"
+			],
+			[
+				"game",
+				"gameObject\t[class]"
+			],
+			[
+				"RaycastAll",
+				"RaycastAll\tPhysics.*(ray, maxDistance, layerMask)"
+			],
+			[
+				"Rayca",
+				"Raycast\tCollider.*(ray, out hitInfo, maxDistance)"
+			],
+			[
+				"Scree",
+				"Screen\t[class]"
+			],
+			[
+				"Ray",
+				"Ray\t[class]"
+			],
+			[
+				"Word",
+				"WorldToScreenPoint\tCamera.*(position)"
+			],
+			[
 				"positions",
 				"positions"
 			],
@@ -56,10 +132,6 @@
 				"lineRenderer"
 			],
 			[
-				"Seri",
-				"SerializeField\t[class]"
-			],
-			[
 				"gameob",
 				"gameObject\tCollision.*"
 			],
@@ -94,10 +166,6 @@
 			[
 				"fruit",
 				"fruitIndex"
-			],
-			[
-				"Game",
-				"GameObject"
 			],
 			[
 				"Range",
@@ -452,18 +520,20 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/ASUS/Desktop/CutFruit/Assets",
-		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts",
-		"/C/Users/ASUS/Desktop/CutFruit/Assets/User"
-	],
 	"file_history":
 	[
-		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/UIStart.cs",
-		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/Spawner.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/UIScore.cs",
 		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/MouseController.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/UIOver.cs",
+		"/C/Users/ASUS/Desktop/UIScore.cs",
+		"/C/Users/ASUS/Desktop/UIOver.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/ObjectController.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/DestroyOnTime.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/Score.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Prefabs/DestroyOnTime.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/Spawner.cs",
 		"/C/Users/ASUS/Desktop/MouseControl.cs",
+		"/C/Users/ASUS/Desktop/CutFruit/Assets/Scripts/UIStart.cs",
 		"/C/Users/ASUS/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
 		"/C/Users/ASUS/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
 		"/C/Users/ASUS/Desktop/CutFruit/Assets/cube.cs",
@@ -507,7 +577,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -551,7 +621,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -615,7 +685,7 @@
 	"project": "CutFruit.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -653,7 +723,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
